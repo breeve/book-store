@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package book.book.v1;
+option go_package = "github.com/breeve/book-store/apis/api/book-manager/book/v1;book";
+
+message Book {
+    // Name
+    string name = 1;
+
+    // Description
+    string description = 2;
+}
